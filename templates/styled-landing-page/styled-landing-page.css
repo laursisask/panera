@@ -1,0 +1,7 @@
+body.styled-landing-page main .bg-image {
+  background-image: url('/bg-image/media_1626bd63b3955c298936f39d6b7725c74e1998062.jpeg');
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: top;
+  background-attachment: fixed;
+}

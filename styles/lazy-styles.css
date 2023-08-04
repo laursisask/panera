@@ -1,1 +1,28 @@
 /* add global styles that can be loaded post LCP here */
+
+@font-face {
+  font-display: block;
+  font-family: archer;
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/panera/archer-medium.woff2") format("woff2")
+}
+
+
+@font-face {
+  font-display: block;
+  font-family: calibre;
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/panera/calibre-medium.woff2") format("truetype")
+}
+
+@font-face {
+  font-display: block;
+  font-family: calibre;
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/panera/calibre-regular.woff2") format("truetype")
+}
+
+
