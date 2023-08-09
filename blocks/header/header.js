@@ -104,7 +104,6 @@ async function createTabs(block) {
     button.classList.add('tab');
   
     const siteUrl = new URL(site.Link);
-    console.log(siteUrl.pathname);
 
     if(siteUrl.pathname === window.location.pathname) {
       button.classList.add('selected');
@@ -113,13 +112,6 @@ async function createTabs(block) {
     const link = document.createElement('a');
     link.setAttribute('href', `${site.Link}`);
     link.textContent = site.Name;
-
-    // button.addEventListener('click', (e) => {
-    //   [...document.querySelectorAll('.tab-list > button')].forEach((btn) => {
-    //     btn.classList = [...btn.classList[0]];
-    //   });
-    //   e.currentTarget.classList.add('selected');
-    // });
 
     button.append(link);
     tabList.append(button);
