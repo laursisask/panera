@@ -63,20 +63,31 @@ header .nav-tabs {
   background-color: var(--background-tab-color);
 }
 
-header .nav-tabs > .tab-list {
+header .nav-tabs > ul.tab-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
   margin: 0 50px;
 }
 
-header .tab-list > button {
+header .tab-list > li {
   background-color: transparent;
   height: 46px;
   color:#011500;
   border-radius: .8rem .8rem 0 0;
   margin: 5px 3px 0;
   cursor: pointer;
+  padding: 0 8px;
 }
 
-header .tab-list > button.selected {
+header .tab-list > li > a {
+  text-decoration: none;
+  color: rgb(1 20 0 );
+  font-size: 15px;
+  font-style: sequel-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header .tab-list > li.selected {
   background-color: var(--background-color);
 }
 
