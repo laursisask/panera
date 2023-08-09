@@ -88,7 +88,7 @@ header .tab-list > li > a {
   text-decoration: none;
   color: rgb(1 20 0 );
   font-size: 15px;
-  font-style: sequel-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: sequel-sans, "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
 header .tab-list > li.selected {
@@ -292,7 +292,7 @@ header nav .nav-sections ul > li > ul > li {
     column-count: 3;
     column-gap: 20px;
 }
-  }
+  
 
   /* header nav .nav-sections > ul > li > ul::before {
     content: '';

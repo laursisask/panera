@@ -86,7 +86,7 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
 }
 
 async function fetchTabs() {
-  const resp = await fetch(`/tabs.json`);
+  const resp = await fetch('/tabs.json');
   return resp.json();
 }
 
@@ -102,10 +102,9 @@ async function createTabs(block) {
   sites.data.forEach((site) => {
     const button = document.createElement('li');
     button.classList.add('tab');
-  
     const siteUrl = new URL(site.Link);
 
-    if(siteUrl.pathname === window.location.pathname) {
+    if (siteUrl.pathname === window.location.pathname) {
       button.classList.add('selected');
     }
 
